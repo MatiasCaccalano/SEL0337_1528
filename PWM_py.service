@@ -1,0 +1,11 @@
+[Unit]
+Description= Blink LED em Python
+After=multi-user.target
+
+[Service]
+ExecStart=/user/bin/python3 /home/sel/2815/Aula5/LEDPWM.py
+ExecStop=/home/sel/2815/Aula5/LEDPWM_stop.py
+user=SEL
+
+[Install]
+WantedBy=multi-user.target

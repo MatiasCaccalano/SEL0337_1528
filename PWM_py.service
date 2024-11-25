@@ -3,8 +3,8 @@ Description= Blink LED em Python
 After=multi-user.target
 
 [Service]
-ExecStart=/user/bin/python3 /home/sel/2815/Aula5/LEDPWM.py
-ExecStop=/home/sel/2815/Aula5/LEDPWM_stop.py
+ExecStart=/user/bin/python3 /home/sel/2815/Aula5/LEDPWM.py #Inicializa o python depois o LEDPWM
+ExecStop=/home/sel/2815/Aula5/LEDPWM_stop.py #Roda o LEDPWM_stop quando o service é interrompido
 user=SEL
 
 [Install]

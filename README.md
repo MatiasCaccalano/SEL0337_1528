@@ -8,6 +8,6 @@ Prática 5: SystemD e personalização de serviços de inicialização em Linux 
   https://github.com/MatiasCaccalano/SEL0337_1528/blob/main/Montagem_PWM.jpg </p>
 <p> O LEDPWM.py simplismente alterna entre 3 valores de PWM de forma a alterar o brilho do LED, o projeto LEDPWM_stop.py mantém o led desligado. O arquivo PWM_py.service é responsável por permitir que o projeto seja inicializado durante
   o boot da Raspberry Pi, já que ele inicializa o python e também o projeto LEDPWM.py, ativando o projeto LEDPWM_stop.py quando o service é encerrado. </p>
-<p> Todos os projetos foram adicionados a branch master, incluindo o arquivo com o histórico do comando do git. Devido a problemas ao tentar realizar o push durante a aula a adição dos arquivos ao GitHub foi realizada posteriormente com 
+<p> Todos os projetos foram adicionados à branch master, incluindo o arquivo com o histórico do comando do git. Devido a problemas ao tentar realizar o push durante a aula a adição dos arquivos ao GitHub foi realizada posteriormente com 
   uma máquina virtual Ubuntu no desktop pessoal. </p>
 </body>

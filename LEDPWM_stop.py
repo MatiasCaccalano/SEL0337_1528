@@ -8,5 +8,5 @@ led = PWMLED(18) #Define o LED que vai ser usado
 
 while True: #Loop infinito
     led.value = 0 #Led desligado
-    sleep(0.5)      #Espera 1 segundo
+    sleep(0.5)      #Espera 0,5 segundo
     
